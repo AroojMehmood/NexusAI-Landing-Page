@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="NexusAI — Enhance your business with artificial intelligence. Analytics, automation, and insights in one platform.">
+  <title>NexusAI — AI-Powered Business Intelligence</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!--  NAVBAR  -->
+  <header class="navbar" id="navbar">
+    <div class="container navbar__inner">
+      <a href="#home" class="navbar__logo">
+        <span class="navbar__logo-icon"><i class="fas fa-brain"></i></span>
+        Nexus<span class="text-gradient">AI</span>
+      </a>
+
+      <nav class="navbar__nav" id="navMenu">
+        <ul class="navbar__list">
+          <li><a href="#home" class="navbar__link active">Home</a></li>
+          <li><a href="#features" class="navbar__link">Features</a></li>
+          <li><a href="#solutions" class="navbar__link">Solutions</a></li>
+          <li><a href="#pricing" class="navbar__link">Pricing</a></li>
+          <li><a href="#testimonials" class="navbar__link">Testimonials</a></li>
+          <li><a href="#faq" class="navbar__link">FAQ</a></li>
+          <li><a href="#contact" class="navbar__link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="navbar__actions">
+        <a href="#" class="btn btn--ghost btn--sm">Login</a>
+        <a href="#pricing" class="btn btn--primary btn--sm">Get Started</a>
+      </div>
+
+      <button class="navbar__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!--  HERO SECTION  -->
+    <section class="hero" id="home">
+      <div class="hero__bg">
+        <div class="hero__orb hero__orb--1"></div>
+        <div class="hero__orb hero__orb--2"></div>
+        <div class="hero__grid"></div>
+      </div>
+
+      <div class="container hero__inner">
+        <div class="hero__content reveal">
+          <span class="badge">
+            <i class="fas fa-sparkles"></i>
+            Powered by Next-Gen AI
+          </span>
+          <h1 class="hero__title">
+            Enhance Your Business With
+            <span class="text-gradient">Artificial Intelligence</span>
+          </h1>
+          <p class="hero__desc">
+            Transform raw data into actionable insights. NexusAI automates workflows,
+            predicts trends, and scales your operations with enterprise-grade intelligence.
+          </p>
+          <div class="hero__buttons">
+            <a href="#pricing" class="btn btn--primary btn--lg">
+              <i class="fas fa-rocket"></i> Start Free
+            </a>
+            <a href="#contact" class="btn btn--outline btn--lg">
+              <i class="fas fa-calendar"></i> Book Demo
+            </a>
+          </div>
+          <div class="hero__stats">
+            <div class="hero__stat">
+              <strong>10K+</strong>
+              <span>Active Users</span>
+            </div>
+            <div class="hero__stat">
+              <strong>99.9%</strong>
+              <span>Uptime</span>
+            </div>
+            <div class="hero__stat">
+              <strong>4.9★</strong>
+              <span>Rating</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__visual reveal reveal--delay">
+          <div class="hero__dashboard glass">
+            <img
+              src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80"
+              alt="AI Analytics Dashboard"
+              class="hero__dashboard-img"
+            >
+            <div class="hero__dashboard-overlay"></div>
+          </div>
+
+          <!-- Floating Cards -->
+          <div class="float-card float-card--1 glass">
+            <i class="fas fa-chart-line"></i>
+            <div>
+              <strong>+127%</strong>
+              <span>Revenue Growth</span>
+            </div>
+          </div>
+          <div class="float-card float-card--2 glass">
+            <i class="fas fa-robot"></i>
+            <div>
+              <strong>AI Active</strong>
+              <span>Processing 2.4K tasks</span>
+            </div>
+          </div>
+          <div class="float-card float-card--3 glass">
+            <i class="fas fa-shield-halved"></i>
+            <div>
+              <strong>Secure</strong>
+              <span>SOC 2 Certified</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--  TRUST SECTION  -->
+    <section class="trust">
+      <div class="container">
+        <p class="trust__label reveal">Trusted by innovative companies worldwide</p>
+        <div class="trust__logos reveal">
+          <div class="trust__logo"><i class="fab fa-google"></i> Google</div>
+          <div class="trust__logo"><i class="fab fa-microsoft"></i> Microsoft</div>
+          <div class="trust__logo"><i class="fab fa-spotify"></i> Spotify</div>
+          <div class="trust__logo"><i class="fab fa-slack"></i> Slack</div>
+          <div class="trust__logo"><i class="fab fa-aws"></i> AWS</div>
+          <div class="trust__logo"><i class="fab fa-stripe"></i> Stripe</div>
+        </div>
+      </div>
+    </section>
+
+    <!--  FEATURES SECTION  -->
+    <section class="features section" id="features">
+      <div class="container">
+        <div class="section__header reveal">
+          <span class="badge badge--sm">Features</span>
+          <h2 class="section__title">Everything You Need to <span class="text-gradient">Scale with AI</span></h2>
+          <p class="section__desc">Powerful tools designed for modern teams who demand speed, accuracy, and intelligence.</p>
+        </div>
+
+        <div class="features__grid">
+          <article class="feature-card glass reveal">
+            <div class="feature-card__icon"><i class="fas fa-brain"></i></div>
+            <h3 class="feature-card__title">Smart Analytics</h3>
+            <p class="feature-card__desc">Real-time dashboards powered by machine learning that surface insights before you ask.</p>
+          </article>
+
+          <article class="feature-card glass reveal reveal--delay">
+            <div class="feature-card__icon"><i class="fas fa-bolt"></i></div>
+            <h3 class="feature-card__title">Workflow Automation</h3>
+            <p class="feature-card__desc">Automate repetitive tasks with intelligent triggers and custom AI pipelines.</p>
+          </article>
+
+          <article class="feature-card glass reveal reveal--delay-2">
+            <div class="feature-card__icon"><i class="fas fa-language"></i></div>
+            <h3 class="feature-card__title">Natural Language</h3>
+            <p class="feature-card__desc">Query your data in plain English. No SQL, no complexity — just answers.</p>
+          </article>
+
+          <article class="feature-card glass reveal">
+            <div class="feature-card__icon"><i class="fas fa-shield-halved"></i></div>
+            <h3 class="feature-card__title">Enterprise Security</h3>
+            <p class="feature-card__desc">End-to-end encryption, SSO, and compliance with GDPR, SOC 2, and HIPAA.</p>
+          </article>
+
+          <article class="feature-card glass reveal reveal--delay">
+            <div class="feature-card__icon"><i class="fas fa-plug"></i></div>
+            <h3 class="feature-card__title">200+ Integrations</h3>
+            <p class="feature-card__desc">Connect Slack, Salesforce, HubSpot, and your entire stack in minutes.</p>
+          </article>
+
+          <article class="feature-card glass reveal reveal--delay-2">
+            <div class="feature-card__icon"><i class="fas fa-chart-pie"></i></div>
+            <h3 class="feature-card__title">Predictive Models</h3>
+            <p class="feature-card__desc">Forecast revenue, churn, and demand with AI models trained on your data.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOW IT WORKS SECTION -->
+    <section class="how-it-works section" id="solutions">
+      <div class="container">
+        <div class="section__header reveal">
+          <span class="badge badge--sm">How It Works</span>
+          <h2 class="section__title">Three Steps to <span class="text-gradient">AI-Powered Growth</span></h2>
+          <p class="section__desc">Get up and running in minutes, not months. Our platform handles the complexity.</p>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline__line"></div>
+
+          <div class="timeline__step reveal">
+            <div class="timeline__number">01</div>
+            <div class="timeline__content glass">
+              <div class="timeline__icon"><i class="fas fa-link"></i></div>
+              <h3>Connect</h3>
+              <p>Link your data sources, CRM, and tools with one-click integrations. No engineering required.</p>
+            </div>
+          </div>
+
+          <div class="timeline__step reveal reveal--delay">
+            <div class="timeline__number">02</div>
+            <div class="timeline__content glass">
+              <div class="timeline__icon"><i class="fas fa-magnifying-glass-chart"></i></div>
+              <h3>Analyze</h3>
+              <p>Our AI engine processes millions of data points to uncover patterns, anomalies, and opportunities.</p>
+            </div>
+          </div>
+
+          <div class="timeline__step reveal reveal--delay-2">
+            <div class="timeline__number">03</div>
+            <div class="timeline__content glass">
+              <div class="timeline__icon"><i class="fas fa-seedling"></i></div>
+              <h3>Grow</h3>
+              <p>Act on AI-driven recommendations to optimize campaigns, reduce churn, and accelerate revenue.</p>
+            </div>
+          </div>
+        </div>
+      </di -->
+    <section class="dashboard section">
+      <div class="container">
+        <div class="dashboard__inner">
+          <div class="dashboard__content reveal">
+            <span class="badge badge--sm">Dashboard</span>
+            <h2 class="section__title">Your Command Center for <span class="text-gradient">Intelligence</span></h2>
+            <p class="section__desc">Monitor KPIs, track AI performance, and make data-driven decisions from a single beautiful interface.</p>
+
+            <ul class="dashboard__features">
+              <li><i class="fas fa-check-circle"></i> Real-time analytics & reporting</li>
+              <li><i class="fas fa-check-circle"></i> Customizable widgets & layouts</li>
+              <li><i class="fas fa-check-circle"></i> AI-powered anomaly detection</li>
+              <li><i class="fas fa-check-circle"></i> Export to PDF, CSV, or API</li>
+            </ul>
+
+            <a href="#pricing" class="btn btn--primary">Explore Dashboard</a>
+          </div>
+
+          <div class="dashboard__visual reveal reveal--delay">
+            <div class="dashboard__mockup glass">
+              <div class="dashboard__mockup-header">
+                <span class="dot dot--red"></span>
+                <span class="dot dot--yellow"></span>
+                <span class="dot dot--green"></span>
+                <span class="dashboard__mockup-title">NexusAI Analytics</span>
+              </div>
+
+              <div class="dashboard__widgets">
+                <div class="widget widget--stat">
+                  <span class="widget__label">Total Revenue</span>
+                  <strong class="widget__value">$284,520</strong>
+                  <span class="widget__change widget__change--up"><i class="fas fa-arrow-up"></i> 12.5%</span>
+                </div>
+                <div class="widget widget--stat">
+                  <span class="widget__label">Active Users</span>
+                  <strong class="widget__value">8,429</strong>
+                  <span class="widget__change widget__change--up"><i class="fas fa-arrow-up"></i> 8.2%</span>
+                </div>
+                <div class="widget widget--stat">
+                  <span class="widget__label">Conversion Rate</span>
+                  <strong class="widget__value">4.8%</strong>
+                  <span class="widget__change widget__change--down"><i class="fas fa-arrow-down"></i> 0.3%</span>
+                </div>
+
+                <div class="widget widget--chart">
+                  <span class="widget__label">Performance Overview</span>
+                  <div class="chart-bars">
+                    <div class="chart-bar" style="--h: 60%"></div>
+                    <div class="chart-bar" style="--h: 85%"></div>
+                    <div class="chart-bar" style="--h: 45%"></div>
+                    <div class="chart-bar" style="--h: 92%"></div>
+                    <div class="chart-bar" style="--h: 70%"></div>
+                    <div class="chart-bar" style="--h: 88%"></div>
+                    <div class="chart-bar" style="--h: 55%"></div>
+                  </div>
+                </div>
+
+                <div class="widget widget--chart">
+                  <span class="widget__label">AI Processing Load</span>
+                  <div class="chart-line">
+                    <svg viewBox="0 0 300 80" preserveAspectRatio="none">
+                      <defs>
+                        <linearGradient id="lineGrad" x1="0" y1="0" x2="0" y2="1">
+                          <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.4"/>
+                          <stop offset="100%" stop-color="#7C3AED" stop-opacity="0"/>
+                        </linearGradient>
+                      </defs>
+                      <path d="M0,60 L40,45 L80,55 L120,30 L160,40 L200,20 L240,35 L280,15 L300,25" fill="none" stroke="#A855F7" stroke-width="2"/>
+                      <path d="M0,60 L40,45 L80,55 L120,30 L160,40 L200,20 L240,35 L280,15 L300,25 L300,80 L0,80" fill="url(#lineGrad)"/>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRICING SECTION -->
+    <section class="pricing section" id="pricing">
+      <div class="container">
+        <div class="section__header reveal">
+          <span class="badge badge--sm">Pricing</span>
+          <h2 class="section__title">Simple, Transparent <span class="text-gradient">Pricing</span></h2>
+          <p class="section__desc">Start free, scale as you grow. No hidden fees, cancel anytime.</p>
+        </div>
+
+        <div class="pricing__grid">
+          <!-- Starter -->
+          <article class="pricing-card glass reveal">
+            <h3 class="pricing-card__name">Starter</h3>
+            <p class="pricing-card__desc">Perfect for individuals and small teams</p>
+            <div class="pricing-card__price">
+              <span class="pricing-card__currency">$</span>
+              <span class="pricing-card__amount">29</span>
+              <span class="pricing-card__period">/month</span>
+            </div>
+            <ul class="pricing-card__features">
+              <li><i class="fas fa-check"></i> Up to 5 team members</li>
+              <li><i class="fas fa-check"></i> 10GB data storage</li>
+              <li><i class="fas fa-check"></i> Basic analytics</li>
+              <li><i class="fas fa-check"></i> Email support</li>
+              <li><i class="fas fa-check"></i> 50 AI queries/month</li>
+            </ul>
+            <a href="#" class="btn btn--outline btn--block">Get Started</a>
+          </article>
+
+          <!-- Pro (Highlighted) -->
+          <article class="pricing-card pricing-card--featured glass reveal reveal--delay">
+            <span class="pricing-card__badge">Most Popular</span>
+            <h3 class="pricing-card__name">Pro</h3>
+            <p class="pricing-card__desc">For growing businesses that need more power</p>
+            <div class="pricing-card__price">
+              <span class="pricing-card__currency">$</span>
+              <span class="pricing-card__amount">79</span>
+              <span class="pricing-card__period">/month</span>
+            </div>
+            <ul class="pricing-card__features">
+              <li><i class="fas fa-check"></i> Up to 25 team members</li>
+              <li><i class="fas fa-check"></i> 100GB data storage</li>
+              <li><i class="fas fa-check"></i> Advanced analytics & AI</li>
+              <li><i class="fas fa-check"></i> Priority support</li>
+              <li><i class="fas fa-check"></i> Unlimited AI queries</li>
+              <li><i class="fas fa-check"></i> Custom integrations</li>
+            </ul>
+            <a href="#" class="btn btn--primary btn--block">Get Started</a>
+          </article>
+
+          <!-- Enterprise -->
+          <article class="pricing-card glass reveal reveal--delay-2">
+            <h3 class="pricing-card__name">Enterprise</h3>
+            <p class="pricing-card__desc">Custom solutions for large organizations</p>
+            <div class="pricing-card__price">
+              <span class="pricing-card__currency">$</span>
+              <span class="pricing-card__amount">199</span>
+              <span class="pricing-card__period">/month</span>
+            </div>
+            <ul class="pricing-card__features">
+              <li><i class="fas fa-check"></i> Unlimited team members</li>
+              <li><i class="fas fa-check"></i> Unlimited storage</li>
+              <li><i class="fas fa-check"></i> Dedicated AI models</li>
+              <li><i class="fas fa-check"></i> 24/7 phone support</li>
+              <li><i class="fas fa-check"></i> SLA guarantee</li>
+              <li><i class="fas fa-check"></i> On-premise deployment</li>
+            </ul>
+            <a href="#" class="btn btn--outline btn--block">Contact Sales</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!--  TESTIMONIALS SECTION  -->
+    <section class="testimonials section" id="testimonials">
+      <div class="container">
+        <div class="section__header reveal">
+          <span class="badge badge--sm">Testimonials</span>
+          <h2 class="section__title">Loved by <span class="text-gradient">Teams Worldwide</span></h2>
+          <p class="section__desc">See what industry leaders say about transforming their business with NexusAI.</p>
+        </div>
+
+        <div class="testimonials__grid">
+          <article class="testimonial-card glass reveal">
+            <div class="testimonial-card__stars">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            </div>
+            <p class="testimonial-card__text">"NexusAI cut our reporting time by 80%. The predictive analytics alone paid for itself in the first month."</p>
+            <div class="testimonial-card__author">
+              <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop" alt="Sarah Chen" class="testimonial-card__avatar">
+              <div>
+                <strong>Sarah Chen</strong>
+                <span>VP of Operations, TechFlow Inc.</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="testimonial-card glass reveal reveal--delay">
+            <div class="testimonial-card__stars">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            </div>
+            <p class="testimonial-card__text">"The natural language queries are a game-changer. Our entire team can now access insights without waiting on engineering."</p>
+            <div class="testimonial-card__author">
+              <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop" alt="Maria Rodriguez" class="testimonial-card__avatar">
+              <div>
+                <strong>Maria Rodriguez</strong>
+                <span>Head of Data, CloudScale</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="testimonial-card glass reveal reveal--delay-2">
+            <div class="testimonial-card__stars">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            </div>
+            <p class="testimonial-card__text">"Enterprise security was our top concern. NexusAI exceeded every compliance requirement we had. Flawless implementation."</p>
+            <div class="testimonial-card__author">
+              <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop" alt="James Park" class="testimonial-card__avatar">
+              <div>
+                <strong>James Park</strong>
+                <span>CTO, FinanceHub</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!--  FAQ SECTION  -->
+    <section class="faq section" id="faq">
+      <div class="container">
+        <div class="section__header reveal">
+          <span class="badge badge--sm">FAQ</span>
+          <h2 class="section__title">Frequently Asked <span class="text-gradient">Questions</span></h2>
+          <p class="section__desc">Everything you need to know about NexusAI. Can't find an answer? Contact our support team.</p>
+        </div>
+
+        <div class="faq__list reveal">
+          <div class="faq__item">
+            <button class="faq__question" aria-expanded="false">
+              <span>What is NexusAI and how does it work?</span>
+              <i class="fas fa-chevron-down faq__icon"></i>
+            </button>
+            <div class="faq__answer">
+              <p>NexusAI is an AI-powered business intelligence platform that connects to your data sources, analyzes patterns using machine learning, and delivers actionable insights through an intuitive dashboard and natural language interface.</p>
+            </div>
+          </div>
+
+          <div class="faq__item">
+            <button class="faq__question" aria-expanded="false">
+              <span>Is there a free trial available?</span>
+              <i class="fas fa-chevron-down faq__icon"></i>
+            </button>
+            <div class="faq__answer">
+              <p>Yes! We offer a 14-day free trial on all plans with full access to features. No credit card required to start. You can upgrade, downgrade, or cancel at any time.</p>
+            </div>
+          </div>
+
+          <div class="faq__item">
+            <button class="faq__question" aria-expanded="false">
+              <span>How secure is my data?</span>
+              <i class="fas fa-chevron-down faq__icon"></i>
+            </button>
+            <div class="faq__answer">
+              <p>Security is our top priority. We use AES-256 encryption at rest and in transit, are SOC 2 Type II certified, GDPR compliant, and offer SSO, 2FA, and role-based access controls on all plans.</p>
+            </div>
+          </div>
+
+          <div class="faq__item">
+            <button class="faq__question" aria-expanded="false">
+              <span>Can I integrate NexusAI with my existing tools?</span>
+              <i class="fas fa-chevron-down faq__icon"></i>
+            </button>
+            <div class="faq__answer">
+              <p>Absolutely. NexusAI integrates with 200+ popular tools including Salesforce, HubSpot, Slack, Google Workspace, Microsoft 365, Stripe, and more. Custom API integrations are available on Pro and Enterprise plans.</p>
+            </div>
+          </div>
+
+          <div class="faq__item">
+            <button class="faq__question" aria-expanded="false">
+              <span>What kind of support do you offer?</span>
+              <i class="fas fa-chevron-down faq__icon"></i>
+            </button>
+            <div class="faq__answer">
+              <p>Starter plans include email support with 24-hour response times. Pro plans get priority support with 4-hour response. Enterprise customers receive 24/7 phone support with a dedicated account manager.</p>
+            </div>
+          </div>
+
+          <div class="faq__item">
+            <button class="faq__question" aria-expanded="false">
+              <span>Can I cancel my subscription anytime?</span>
+              <i class="fas fa-chevron-down faq__icon"></i>
+            </button>
+            <div class="faq__answer">
+              <p>Yes, you can cancel your subscription at any time with no penalties or hidden fees. Your access continues until the end of your current billing period, and you can export all your data before leaving.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--  CTA SECTION  -->
+    <section class="cta section" id="contact">
+      <div class="container">
+        <div class="cta__inner glass reveal">
+          <div class="cta__glow"></div>
+          <h2 class="cta__title">Ready to Transform Your Business?</h2>
+          <p class="cta__desc">Join 10,000+ companies using NexusAI to make smarter decisions, faster. Start your free trial today — no credit card required.</p>
+          <div class="cta__buttons">
+            <a href="#pricing" class="btn btn--primary btn--lg">Start Free Trial</a>
+            <a href="#" class="btn btn--outline btn--lg">Talk to Sales</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!--  FOOTER  -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <a href="#home" class="navbar__logo">
+            <span class="navbar__logo-icon"><i class="fas fa-brain"></i></span>
+            Nexus<span class="text-gradient">AI</span>
+          </a>
+          <p class="footer__tagline">Empowering businesses with intelligent automation and actionable insights.</p>
+          <div class="footer__social">
+            <a href="#" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+
+        <div class="footer__col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__col">
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="#">Documentation</a></li>
+            <li><a href="#">API Reference</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Changelog</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p>&copy; 2026 NexusAI. All rights reserved.</p>
+        <p>Built with passion for the future of AI.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <!-- Custom Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
