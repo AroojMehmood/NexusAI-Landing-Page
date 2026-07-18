@@ -45,7 +45,7 @@ python -m http.server 8000
 # Visit http://localhost:8000
 
 Live Demo
-🔗 View Live Demo : comming soon
+🔗 View Live Demo : https://aroojmehmood.github.io/NexusAI-Landing-Page/
 
 Sections
 Sticky Navbar with mobile hamburger menu
